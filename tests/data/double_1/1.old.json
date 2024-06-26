@@ -64,43 +64,43 @@
     {
       "state": "e1",
       "reading": "1",
-      "position": 1,
-      "memory": "01",
+      "position": 0,
+      "memory": "1",
       "transition": "e2"
     },
     {
       "state": "e2",
       "reading": "0",
-      "position": 2,
-      "memory": "00",
+      "position": 1,
+      "memory": "0",
       "transition": "e3"
     },
     {
       "state": "e3",
       "reading": "0",
-      "position": 3,
-      "memory": "000",
+      "position": 2,
+      "memory": "00",
       "transition": "e4"
     },
     {
       "state": "e4",
       "reading": "0",
-      "position": 2,
-      "memory": "0001",
+      "position": 1,
+      "memory": "001",
       "transition": "e5"
     },
     {
       "state": "e5",
       "reading": "0",
-      "position": 1,
-      "memory": "0001",
+      "position": 0,
+      "memory": "001",
       "transition": "e1"
     },
     {
       "state": "e1",
       "reading": "0",
-      "position": 2,
-      "memory": "0101",
+      "position": 1,
+      "memory": "101",
       "transition": "done"
     }
   ]

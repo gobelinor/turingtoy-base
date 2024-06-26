@@ -134,71 +134,78 @@
     {
       "state": "right",
       "reading": "1",
-      "position": 1,
-      "memory": " 11+1",
+      "position": 0,
+      "memory": "11+1",
       "transition": "right"
     },
     {
       "state": "right",
       "reading": "1",
-      "position": 2,
-      "memory": " 11+1",
+      "position": 1,
+      "memory": "11+1",
       "transition": "right"
     },
     {
       "state": "right",
       "reading": "+",
-      "position": 3,
-      "memory": " 11+1",
+      "position": 2,
+      "memory": "11+1",
       "transition": "right"
     },
     {
       "state": "right",
       "reading": "1",
-      "position": 4,
-      "memory": " 11+1",
+      "position": 3,
+      "memory": "11+1",
       "transition": "right"
     },
     {
       "state": "right",
       "reading": " ",
-      "position": 5,
-      "memory": " 11+1",
+      "position": 4,
+      "memory": "11+1",
       "transition": "read"
     },
     {
       "state": "read",
       "reading": "1",
-      "position": 4,
-      "memory": " 11+1",
+      "position": 3,
+      "memory": "11+1",
       "transition": "have1"
     },
     {
       "state": "have1",
       "reading": "+",
-      "position": 3,
-      "memory": " 11+c",
+      "position": 2,
+      "memory": "11+c",
       "transition": "add1"
     },
     {
       "state": "add1",
       "reading": "1",
-      "position": 2,
-      "memory": " 11+c",
+      "position": 1,
+      "memory": "11+c",
       "transition": "carry"
     },
     {
       "state": "carry",
       "reading": "1",
-      "position": 1,
-      "memory": " 1O+c",
+      "position": 0,
+      "memory": "1O+c",
       "transition": "carry"
     },
     {
       "state": "carry",
       "reading": " ",
+      "position": -1,
+      "memory": "0O+c",
+      "transition": "back1"
+    },
+    {
+      "state": "back1",
+      "reading": "1",
       "position": 0,
-      "memory": " 0O+c",
+      "memory": "10O+c",
       "transition": "back1"
     },
     {
